@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: rashi
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/index.js
